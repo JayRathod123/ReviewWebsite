@@ -26,8 +26,6 @@ function UserReview(props) {
        setRating(e.target.value)
    }
 
-
-
   return (
     <>
 

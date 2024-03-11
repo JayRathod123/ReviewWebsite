@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,27 +8,28 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg bg-body-tertiary" style={{width:"100%"}}>
         <div class="container-fluid">
           <div class="navbar-brand" to="#">
-            Navbar
+            ReviewApp
           </div>
         </div>
 
-        <Link
+        <NavLink
           class="navbar-brand"
-          style={{ position: "absolute", left: "100px" }}
+          style={{ position: "absolute", left: "150px" }}
           exact
-          to="/"
-        >
+          to="/ReviewWebsite"
+        >               
           Home
-        </Link>
+        </NavLink>
 
-        <Link
+        <NavLink
           class="navbar-brand"
-          style={{ position: "absolute", left: "180px" }}
+          style={{ position: "absolute", left: "250px" }}
           to="/Reviews"
-        >
+        >       
           Reviews
-        </Link>
+        </NavLink>
       </nav>
+      
     </>
   );
 }
