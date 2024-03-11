@@ -1,0 +1,10 @@
+button{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
